@@ -1,0 +1,4 @@
+"""
+Dicas e regras
+
+"""
