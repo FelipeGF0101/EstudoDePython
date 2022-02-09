@@ -7,3 +7,19 @@ A confederação nacional de natação precisa de um programa que leia o ano de 
 > Até 20 anos: Sênior
 > Acima de 20: Master
 """
+print('========== CONFEDERAÇÃO NACIONAL DE NATAÇÃO =========')
+nome = input('Digite seu nome: ')
+print('==========' * 5)
+idade = int(input('Ano de nascimento: '))
+print('==========' * 5)
+calc = 2022 - idade
+if calc <= 9:
+    print(f'{nome}, você se classifica como MIRIM')
+elif calc > 9 and calc <=14: 
+    print(f'{nome}, você se classifica como INFANTIL')
+elif calc > 14 and calc <= 19:
+    print(f'{nome}, você se classifica como JÚNIOR')
+elif calc > 19 and calc <= 20:
+    print(f'{nome}, você se classifica como SÊNIOR')
+elif calc > 20:
+    print(f'{nome}, você se classifica como MASTER') 
