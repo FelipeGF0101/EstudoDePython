@@ -18,6 +18,8 @@ print('==========' * 5)
 print(f'{nome}, todo brasileiro do sexo masculino, no ano em que completa 18 anos, deve se alistar, obrigatoriamente, no Serviço Militar. Esse alistamento é obrigatório inclusive aos portadores de deficiência física e mental.')
 print('==========' * 5)
 print('Analisando informações...')
+
+# Poderia usar o 'from datetime import date' e 'atual = date.today().year'. O programa sempre iria o usar o ano atual.
 calc = 2022 - idade
 time.sleep(4)
 print('==========' * 5)

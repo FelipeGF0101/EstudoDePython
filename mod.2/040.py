@@ -12,7 +12,7 @@ nome = input('Digite seu nome: ')
 nota1 = float(input('Digite a primeira nota: '))
 nota2 = float(input('Digite a segunda nota: '))
 print('==========' * 5)
-print(f'{nome}, agora vou calcular a sua média. Aguarde aluns instantes!')
+print(f'{nome}, agora vou calcular a sua média. Aguarde alguns instantes!')
 time.sleep(4)
 media = (nota1 + nota2)/2
 print(f'A sua média é {media}.')
