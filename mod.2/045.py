@@ -3,6 +3,7 @@ Crie um programa que faça o computador jogar Jokenpô (pedra, papel, tesoura) c
 
 """
 import random
+import time
 
 print('\033[1;36;41m========== JOKENPÔ ==========\033[m')
 print('======' * 5)
@@ -18,6 +19,14 @@ elif num == 2:
     item1 = 'PAPEL'
 elif num == 3:
     item1 = 'TESOURA'
+
+time.sleep(1)
+print('JO')
+time.sleep(1)
+print('KEN')
+time.sleep(1)
+print('PÔ!!!')
+
 print(f'\033[1;30;45mUSUÁRIO: {item1} \033[m')
 print('======' * 5)
 
@@ -50,4 +59,23 @@ elif ppt == [3] and num == 2:
     print(f'{item} X {item1} = COMPUTADOR VENCEU')
 print('======' * 5)
 
+"""
+FORMA SIMPLIFICADA:
 
+from random import randint
+itens = ('Pedra', 'Papel', 'Tesoura')
+computador = randint(0,2)
+
+print(''' Suas opções:
+[0] Pedra
+[1] Papel
+[2] Tesoura''')
+
+jogador = int(input('Qual é a sua jogada? '))
+print('-='* 10)
+print('Computador jogou {}'.format(itens[computador]))
+print('Jogador jogou {}'.format(itens[jogador]))
+print('-='* 10)
+
+ABAIXO SERIA A ESTRUTURA DE IF
+"""

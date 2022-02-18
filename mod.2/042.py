@@ -16,7 +16,7 @@ if a + b > c and b + c > a and a + c > b:
 else:
     print('As medidas fornecidas NÃO PODEM FORMAR um triângulo!')
 print('=====' * 5)
-if a == b and b == c and a == c:
+if a == b and b == c:
     print('Com as medidas fornecidas por você, podemos concluir que se trata de um TRIÂNGULO EQUILÁTERO!')
 elif a == b or b == c or a == c:
     print('Com as medidas fornecidas por você, podemos concluir que se trata de um TRIÂNGULO ISÓSCELES!')
