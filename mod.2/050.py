@@ -11,3 +11,16 @@ for num in random.sample(range(0, 20), 6):
         soma = soma + num
 
 print(f'\n{soma}')
+
+'''
+OUTRA FORMA 
+soma = 0
+cont = 0
+
+for c in range(1,7):
+    num = int(input(f'Digite o {c} valor: '))
+    if num % 2 == 0
+    soma += num
+    cont += 1
+print(f'Você informou {cont} números pares. A soma de todos os números pares é {soma}.)
+'''

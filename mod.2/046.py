@@ -7,7 +7,6 @@ print('-=-=-=-=-=-=-= CONTAGEM REGRESSIVA -=-=-=-=-=-=-=-')
 print('-=-=-=-=-=' * 5)
 for n in range(10, -1, -1):
     print(n)
-    if n == 0:
-        print('FOGOOOOOOOOS!!!')
     time.sleep(1)
+print('FOGOOOOOOOOS!!!') 
     
