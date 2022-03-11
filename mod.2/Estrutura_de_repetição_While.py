@@ -36,3 +36,4 @@ while n != 0:
         else:
             impar = impar + 1
 print(f'Você digitou {par} números pares e {impar} números ímpares!')
+
