@@ -3,6 +3,7 @@ Crie um programa que simule o funcionamento de um caixa eletrônico. No início,
 
 -> OBS: Considere que o caixa possui cédulas de R$ 50, R$ 20, R$ 10 e R$ 1.
 """
+# SENHA 1234
 import time
 soma = saque = calc = 0
 resposta = 'S'
@@ -14,8 +15,8 @@ print('\033[1;32m<==><==>\033[m' * 2,'-> BANCO DEV <-','\033[1;32m<==><==>\033[m
 print('\033[1;32m<==><==>\033[m' * 6)
 print('\033[1;32m<==><==>\033[m', 'BOM DIA! BEM VINDO AO BANCO DEV', '\033[1;32m<==><==>\033[m')
 print('\033[1;32m<==><==>\033[m' * 6)
-nome = input('INFORME SEU NOME: ').upper().strip().title()
-print(f'OLÁ, {nome}')
+nome = input('INFORME SEU NOME: ').upper()
+print(f'OLÁ, {nome}!')
 print('\033[1;32m<==><==>\033[m' * 6)
 
 senha = input('INFORME SUA SENHA NUMÉRICA DE 4 DÍGITOS: ')
